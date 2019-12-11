@@ -3,5 +3,37 @@
 // custom code
 
 body {
-  background-color: purple;
+  background-color: gold;
+}
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-text {
+  > p {
+    margin-bottom: .5rem;
+  }
+}
+
+.meta {
+  margin: 0;
+
+  > a,
+    .meta-link {
+    display: inline-block;
+    margin: .20rem 1rem .20rem 0;
+    line-height: 1.2;
+
+    &::after {
+      content: "\f105";
+      display: inline-block;
+      margin-left: .25rem;
+      vertical-align: middle;
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+    }
+  }
 }

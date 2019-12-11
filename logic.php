@@ -1,8 +1,8 @@
-<?php defined( '_JEXEC' ) or die; 
+<?php defined( '_JEXEC' ) or die;
 
 // variables
 $app = JFactory::getApplication();
-$doc = JFactory::getDocument(); 
+$doc = JFactory::getDocument();
 $menu = $app->getMenu();
 $active = $app->getMenu()->getActive();
 $params = $app->getParams();
@@ -12,13 +12,27 @@ $tpath = $this->baseurl.'/templates/'.$this->template;
 // generator tag
 $this->setGenerator(null);
 
+// responsive meta tag (recommended in Bootstrap 4 doc)
+$doc->setMetadata('viewport', 'width=device-width, initial-scale=1, shrink-to-fit=no');
+
+// google fonts
+$doc->addStyleSheet('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+
+// css
+$doc->addStyleSheet($tpath.'/build/main.css');
+
+JHtml::_('jquery.framework');
+$doc->addScript('https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', '', array('integrity' => 'sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', 'crossorigin' => 'anonymous', 'defer' => 'defer'));
+$doc->addScript($tpath . '/js/bootstrap.min.js', '', array('defer' => 'defer'));
+// $doc->addScript($tpath . '/js/script.js', '', array('defer' => 'defer'));
+
 // unset
-unset($doc->_scripts[$this->baseurl .'/media/jui/js/jquery.min.js']);
+// unset($doc->_scripts[$this->baseurl .'/media/jui/js/jquery.min.js']);
 unset($doc->_scripts[$this->baseurl .'/media/jui/js/jquery-noconflict.js']);
 unset($doc->_scripts[$this->baseurl .'/media/jui/js/jquery-migrate.min.js']);
 unset($doc->_scripts[$this->baseurl .'/media/jui/js/bootstrap.min.js']);
 unset($doc->_scripts[$this->baseurl .'/media/system/js/caption.js']);
-unset($doc->_scripts[$this->baseurl .'/media/system/js/core.js']);
+// unset($doc->_scripts[$this->baseurl .'/media/system/js/core.js']);
 unset($doc->_scripts[$this->baseurl .'/media/system/js/tabs-state.js']);
 unset($doc->_scripts[$this->baseurl .'/media/system/js/validate.js']);
 
@@ -31,6 +45,3 @@ if (isset($doc->_script['text/javascript']))
         unset($doc->_script['text/javascript']);
     }
 }
-
-// css
-$doc->addStyleSheet($tpath.'/build/main.css');
