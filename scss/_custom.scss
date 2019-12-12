@@ -6,6 +6,7 @@ body {
   background-color: gold;
 }
 
+// Card
 .card-img-top {
   display: flex;
   justify-content: center;
@@ -18,6 +19,7 @@ body {
   }
 }
 
+// Misc
 .meta {
   margin: 0;
 
@@ -36,4 +38,68 @@ body {
       font-weight: 900;
     }
   }
+}
+
+// Form
+
+// Bootstrap
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+// Select 2
+.select2[style] {
+  width: auto !important;
+  display: block;
+}
+
+.select2-selection {
+	display: block;
+	width: 100%;
+  height: calc(1.5em + .5rem + 2px);
+	padding: .375rem .75rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  padding-left: .5rem;
+  font-size: .875rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.select2-container {
+  .select2-selection--single {
+    height: auto;
+  }
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: $input-color;
+  line-height: $line-height-base;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+  color: $input-color;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-top-color: $input-color;
+}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-bottom-color: $input-color;
 }
