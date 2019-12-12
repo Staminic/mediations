@@ -23,8 +23,8 @@ body {
 .meta {
   margin: 0;
 
-  > a,
-    .meta-link {
+  a,
+  .meta-link {
     display: inline-block;
     margin: .20rem 1rem .20rem 0;
     line-height: 1.2;
@@ -40,6 +40,53 @@ body {
   }
 }
 
+.meta-tag {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-block;
+    margin: .20rem 1rem .20rem 0;
+    line-height: 1.2;
+  }
+}
+
+#chartdiv {
+  svg {
+    font-family: $font-family-condensed;
+    font-size: $font-size-sm;
+  }
+}
+
+// Article
+.content {
+  .right-col {
+    section {
+      margin-bottom: $spacer;
+    }
+  }
+}
+
+.content-contact {
+  padding: $spacer;
+  background-color: $white;
+}
+
+.contact-name {
+  font-weight: 700;
+}
+
+// Map
+.les-institutions {
+  .full-map {
+    [id*="_map"][style] {
+      height: 600px !important;
+    }
+  }
+}
 // Form
 
 // Bootstrap

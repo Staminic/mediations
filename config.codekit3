@@ -70,6 +70,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/html/mod_custom/default.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/mod_custom/default.php",
+		"oF": 0
+		},
 	"/img/circle-regular.svg": {
 		"ft": 2097152,
 		"miP": 0,
