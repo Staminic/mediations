@@ -70,6 +70,30 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/html/com_content/article/default.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/com_content/article/default.php",
+		"oF": 0
+		},
+	"/html/mod_cck_list/azlist.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/mod_cck_list/azlist.php",
+		"oF": 0
+		},
+	"/html/mod_cck_list/azlist_items.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/mod_cck_list/azlist_items.php",
+		"oF": 0
+		},
 	"/html/mod_custom/default.php": {
 		"cB": 0,
 		"ft": 8192,

@@ -3,11 +3,13 @@
 // variables
 $app = JFactory::getApplication();
 $doc = JFactory::getDocument();
+$jinput = JFactory::getApplication()->input;
 $menu = $app->getMenu();
 $active = $app->getMenu()->getActive();
 $params = $app->getParams();
 $pageclass = $params->get('pageclass_sfx');
 $tpath = $this->baseurl.'/templates/'.$this->template;
+$view = $jinput->get('view');
 
 // generator tag
 $this->setGenerator(null);
