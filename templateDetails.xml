@@ -35,12 +35,13 @@
 	</files>
 
 	<positions>
-		<position>navbar</position>
+		<position>main-navbar</position>
 		<position>content-above</position>
 		<position>breadcrumbs</position>
 		<position>component-above</position>
 		<position>sidebar</position>
 		<position>debug</position>
+		<position>inside-component</position>
 	</positions>
 
 </extension>

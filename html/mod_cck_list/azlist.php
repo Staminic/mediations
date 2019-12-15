@@ -41,7 +41,7 @@ if ( $show_list_desc == 1 && $description != '' ) {
 <?php }
 
 if ( $search->content > 0 ) {
-	echo ( $raw_rendering ) ? '<div class="d-flex"><a href="les-institutions">Toutes</a>' . $data . '</div>' : '<div>'.$data.'</div>';
+	echo ( $raw_rendering ) ? '<div class="d-flex"><a href="institutions">Toutes</a>' . $data . '</div>' : '<div>'.$data.'</div>';
 } else {
 	include __DIR__.'/azlist_items.php';
 }

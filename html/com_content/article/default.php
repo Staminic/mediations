@@ -19,6 +19,11 @@ $canEdit = $params->get('access-edit');
 $user    = JFactory::getUser();
 $info    = $params->get('info_block_position', 0);
 
+$app = JFactory::getApplication();
+$active = $app->getMenu()->getActive();
+$jinput = JFactory::getApplication()->input;
+$view = $jinput->get('view');
+
 // Check if associations are implemented. If they are, define the parameter.
 $assocParam = (JLanguageAssociations::isEnabled() && $params->get('show_associations'));
 JHtml::_('behavior.caption');
@@ -27,9 +32,14 @@ JHtml::_('behavior.caption');
 <div class="item-page<?php echo $this->pageclass_sfx; ?>" itemscope itemtype="https://schema.org/Article">
 	<meta itemprop="inLanguage" content="<?php echo ($this->item->language === '*') ? JFactory::getConfig()->get('language') : $this->item->language; ?>" />
 	<?php if ($this->params->get('show_page_heading')) : ?>
-	<div class="page-header">
-		{module BackToMediations}
-		<h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
+	<div class="page-header full-width">
+		<div class="container">
+			<?php if ( ($active->id == '107') && ($view == 'article') ) : ?>
+				{module BackToMediations}
+			<?php endif; ?>
+			
+			<h1> <?php echo $this->escape($this->params->get('page_heading')); ?> </h1>
+		</div>
 	</div>
 	<?php endif;
 	if (!empty($this->item->pagination) && $this->item->pagination && !$this->item->paginationposition && $this->item->paginationrelative)
