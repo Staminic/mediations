@@ -18,7 +18,7 @@ if ($tagId = $params->get('tag_id', ''))
 
 // The menu class is deprecated. Use nav instead
 ?>
-<ul class="navbar-nav menu<?php echo $class_sfx; ?> mod-list"<?php echo $id; ?>>
+<ul class="menu<?php echo $class_sfx; ?> mod-list"<?php echo $id; ?>>
 <?php foreach ($list as $i => &$item)
 {
 	$class = 'nav-item item-' . $item->id;
@@ -84,8 +84,7 @@ if ($tagId = $params->get('tag_id', ''))
 	// The next item is deeper.
 	if ($item->deeper)
 	{
-		echo '<ul class="nav-child unstyled small">';
-	}
+		echo '<ul class="dropdown-menu" aria-labelledby="navbarDropdown'.$item->id.'">';	}
 	// The next item is shallower.
 	elseif ($item->shallower)
 	{

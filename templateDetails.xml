@@ -40,6 +40,8 @@
 		<position>breadcrumbs</position>
 		<position>component-above</position>
 		<position>sidebar</position>
+		<position>footer</position>
+		<position>footer-below</position>		
 		<position>debug</position>
 		<position>inside-component</position>
 	</positions>

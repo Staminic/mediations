@@ -3,7 +3,7 @@
 // variables
 $app = JFactory::getApplication();
 $doc = JFactory::getDocument();
-$jinput = JFactory::getApplication()->input;
+$jinput = $app->input;
 $menu = $app->getMenu();
 $active = $app->getMenu()->getActive();
 $params = $app->getParams();
@@ -26,7 +26,7 @@ $doc->addStyleSheet($tpath.'/build/main.css');
 JHtml::_('jquery.framework');
 $doc->addScript('https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', '', array('integrity' => 'sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', 'crossorigin' => 'anonymous', 'defer' => 'defer'));
 $doc->addScript($tpath . '/js/bootstrap.min.js', '', array('defer' => 'defer'));
-// $doc->addScript($tpath . '/js/script.js', '', array('defer' => 'defer'));
+$doc->addScript($tpath . '/js/script.js', '', array('defer' => 'defer'));
 
 // unset
 // unset($doc->_scripts[$this->baseurl .'/media/jui/js/jquery.min.js']);

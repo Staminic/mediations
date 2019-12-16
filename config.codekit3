@@ -43,6 +43,106 @@
 		"oAP": "/component.php",
 		"oF": 0
 		},
+	"/css/bootstrap/bootstrap-grid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/bootstrap/bootstrap-grid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/bootstrap/bootstrap-reboot.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/bootstrap/bootstrap-reboot-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/bootstrap/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/bootstrap/bootstrap-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/fontawesome/brands.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/fontawesome/brands-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/fontawesome/fa-brands.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/fontawesome/fa-brands-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/fontawesome/fa-regular.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/fontawesome/fa-regular-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/fontawesome/fa-solid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/fontawesome/fa-solid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/fontawesome/fontawesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/fontawesome/fontawesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/fontawesome/v4-shims.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/fontawesome/v4-shims-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/main.css",
+		"oF": 2,
+		"oS": 3
+		},
 	"/error.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -78,6 +178,30 @@
 		"oAP": "/html/com_content/article/default.php",
 		"oF": 0
 		},
+	"/html/com_users/login/default_login.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/com_users/login/default_login.php",
+		"oF": 0
+		},
+	"/html/com_users/login/login.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/com_users/login/login.xml",
+		"oF": 0
+		},
+	"/html/layouts/com_users/joomla/form/renderfield.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/layouts/com_users/joomla/form/renderfield.php",
+		"oF": 0
+		},
 	"/html/mod_cck_list/azlist.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -102,11 +226,39 @@
 		"oAP": "/html/mod_custom/default.php",
 		"oF": 0
 		},
-	"/img/circle-regular.svg": {
+	"/html/mod_menu/default.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/mod_menu/default.php",
+		"oF": 0
+		},
+	"/img/l-art-de-muser-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/img/circle-regular.svg",
+		"oAP": "/img/l-art-de-muser-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/mem-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/mem-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/pmm-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/pmm-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -125,9 +277,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/js/app-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -136,9 +288,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/js/bootstrap.min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -184,6 +336,14 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/prepros-6.config": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/prepros-6.config",
+		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,

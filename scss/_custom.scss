@@ -3,11 +3,11 @@
 // custom code
 
 body {
-  background-color: gold;
+  background-color: $lite-sand;
 }
 section {
-  padding-bottom: ($spacer * 4);
-  margin-bottom: ($spacer * 4);
+  padding-bottom: ($spacer * 2);
+  margin-bottom: ($spacer * 2);
   border-bottom: 1px solid $body-color;
 }
 
@@ -75,6 +75,10 @@ section {
   margin-right: -50vw;
 }
 
+.alert-message {
+  background-color: $teal;
+}
+
 // Article
 .content {
   .right-col {
@@ -122,6 +126,18 @@ section {
   }
 }
 
+.action-search {
+  .form-group {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    button + a {
+      order: -1;
+    }
+  }
+}
+
 // Map
 .institutions {
   .full-map {
@@ -130,7 +146,8 @@ section {
     }
   }
 }
-// Form
+
+// Footer
 
 // Bootstrap
 .custom-select {
@@ -177,6 +194,14 @@ section {
 
 .navbar-collapse {
   flex-grow: 0;
+}
+
+.private-menu {
+  .nav-item {
+    &:last-child {
+      margin-left: auto !important;
+    }
+  }
 }
 
 // Select 2
