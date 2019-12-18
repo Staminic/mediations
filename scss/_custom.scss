@@ -284,6 +284,24 @@ section {
   float: none;
 }
 
+.checkboxes {
+  .cck-fl {
+  	position: relative;
+  	display: block;
+  	padding-left: 1.25rem;
+
+    input {
+    	position: absolute;
+    	margin-top: .3rem;
+    	margin-left: -1.25rem;
+    }
+
+    label {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .inputbox.hidden {
   display: none;
 }
@@ -363,4 +381,13 @@ div.vertical_gx {
   border: none;
   background: none;
   color: $white;
+}
+
+.cck_desc {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+#cck1r_form_md_mediation_situation {
+  margin-bottom: 0;
 }
