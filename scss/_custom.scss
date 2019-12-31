@@ -1,80 +1,15 @@
 @import "partials/layout";
+@import "partials/common";
+@import "partials/styles";
+@import "partials/utilities";
+@import "partials/homepage";
 
-// TEMPLATE STYLES
-
-// custom code
-
-body {
-  background-color: $lite-sand;
-}
-section {
-  padding-bottom: ($spacer * 2);
-  margin-bottom: ($spacer * 2);
-  border-bottom: 1px solid $body-color;
-}
-
-// Card
-.card-img-top {
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.card-text {
-  > p {
-    margin-bottom: 0.5rem;
-  }
-}
-
-// Misc
-.meta {
-  margin: 0;
-
-  a,
-  .meta-link {
-    display: inline-block;
-    margin: 0.2rem 1rem 0.2rem 0;
-    line-height: 1.2;
-
-    &::after {
-      content: "\f105";
-      display: inline-block;
-      margin-left: 0.25rem;
-      vertical-align: middle;
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-    }
-  }
-}
-
-.meta-tag {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0.2rem 1rem 0.2rem 0;
-    line-height: 1.2;
-  }
-}
 
 #chartdiv {
   svg {
     font-family: $font-family-condensed;
     font-size: $font-size-sm;
   }
-}
-
-.full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }
 
 .alert-message {
@@ -149,48 +84,6 @@ section {
   }
 }
 
-// Footer
-
-// Bootstrap
-.custom-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-[class^="icon-"]::before,
-[class*=" icon-"]::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-}
-
-.icon-plus::before {
-  content: "\f055";
-}
-
-.icon-minus::before {
-  content: "\f056";
-}
-
-.icon-eye::before {
-  content: "\f06e";
-}
-
-.icon-edit::before {
-  content: "\f044";
-}
-
-.icon-delete::before {
-  content: "\f1f8";
-}
-
-.icon-publish::before {
-  content: "\f00c";
-}
-
-.icon-unpublish::before {
-  content: "\f00d";
-}
 
 // navbar
 

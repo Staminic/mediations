@@ -18,7 +18,7 @@ $this->setGenerator(null);
 $doc->setMetadata('viewport', 'width=device-width, initial-scale=1, shrink-to-fit=no');
 
 // google fonts
-$doc->addStyleSheet('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+$doc->addStyleSheet('https://fonts.googleapis.com/css?family=Nunito:400,600,700|Oswald:400,500');
 
 // css
 $doc->addStyleSheet($tpath.'/build/main.css');

@@ -226,6 +226,14 @@
 		"oAP": "/html/mod_custom/default.php",
 		"oF": 0
 		},
+	"/html/mod_custom/naked.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/mod_custom/naked.php",
+		"oF": 0
+		},
 	"/html/mod_menu/default.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -233,6 +241,17 @@
 		"oA": 0,
 		"oAP": "/html/mod_menu/default.php",
 		"oF": 0
+		},
+	"/img/art-gallery.jpg": {
+		"ft": 16384,
+		"iS": 129074,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/art-gallery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/l-art-de-muser-logo.svg": {
 		"ft": 2097152,
@@ -1833,6 +1852,32 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/scss/partials/_common.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_common.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/partials/_homepage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_homepage.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/partials/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1842,6 +1887,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/partials/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/partials/_styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/partials/_utilities.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_utilities.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2017,7 +2088,7 @@
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"allowInjectionReloads": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 0,
@@ -3490,7 +3561,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://localhost:8888",
+	"externalServerAddress": "dev.mediations.mamp",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

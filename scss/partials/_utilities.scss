@@ -1,0 +1,51 @@
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+// Bootstrap
+
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.icon-plus::before {
+  content: "\f055";
+}
+
+.icon-minus::before {
+  content: "\f056";
+}
+
+.icon-eye::before {
+  content: "\f06e";
+}
+
+.icon-edit::before {
+  content: "\f044";
+}
+
+.icon-delete::before {
+  content: "\f1f8";
+}
+
+.icon-publish::before {
+  content: "\f00c";
+}
+
+.icon-unpublish::before {
+  content: "\f00d";
+}

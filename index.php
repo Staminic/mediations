@@ -27,7 +27,7 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
       </nav>
     </header>
 
-    <main>
+    <main class="overflow-hidden">
       <?php if ($this->countModules('content-above')) : ?>
         <jdoc:include type="modules" name="content-above" style="html5"/>
       <?php endif; ?>
@@ -38,6 +38,8 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
         <jdoc:include type="modules" name="component-above" />
 
         <jdoc:include type="component" />
+
+        <jdoc:include type="modules" name="component-below" />
       </div>
     </main>
 
