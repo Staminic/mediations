@@ -2,7 +2,9 @@
 @import "partials/common";
 @import "partials/styles";
 @import "partials/utilities";
+@import "partials/menus";
 @import "partials/homepage";
+@import "partials/list";
 
 
 #chartdiv {
@@ -75,26 +77,17 @@
   }
 }
 
+.list-items {
+  .card-body {
+    padding-bottom: 0;
+  }
+}
+
 // Map
 .institutions {
   .full-map {
     [id*="_map"][style] {
       height: 600px !important;
-    }
-  }
-}
-
-
-// navbar
-
-.navbar-collapse {
-  flex-grow: 0;
-}
-
-.private-menu {
-  .nav-item {
-    &:last-child {
-      margin-left: auto !important;
     }
   }
 }
@@ -127,6 +120,8 @@
 .select2-container {
   .select2-selection--single {
     height: auto;
+    border-color: $black;
+    border-radius: 0;
   }
 }
 
@@ -170,6 +165,41 @@
   .select2-selection--multiple
   .select2-selection__choice {
   white-space: normal;
+}
+
+.select2-container--default
+  .select2-results__option--highlighted[aria-selected] {
+    background-color: $primary;
+  }
+
+//Joomla
+.chzn-container {
+  font-size: 14px;
+
+  .chzn-results {
+    li.highlighted {
+      background-color: $primary;
+      background-image: none;
+    }
+  }
+}
+
+.chzn-container-multi {
+  .chzn-choices {
+    background-image: none;
+    border-color: $black;
+
+    li.search-field {
+      width: 100%;
+
+      input[type="text"][style] {
+        width: 100% !important;
+        margin: 0;
+        height: 29px;
+        color: #495057;
+      }
+    }
+  }
 }
 
 // Seblod

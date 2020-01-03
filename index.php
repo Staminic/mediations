@@ -15,8 +15,11 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
     <?php // print_r($params); ?>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark d-flex">
-        <a class="navbar-brand mr-md-auto flex-md-grow-1" href="/"><img src="<?php echo $tpath; ?>/img/pmm-logo.svg" class="mr-3" style="height: 38px;" alt="Logo de la Plateforme des médiations muséales" />Plateforme des médiations muséales</a>
+      <nav class="navbar navbar-expand-lg bg-black d-flex">
+        <a class="navbar-brand mr-lg-auto flex-lg-grow-1 " href="/">
+          <img src="<?php echo $tpath; ?>/img/pmm-logo.svg" class="mr-3" style="height: 38px;" alt="Logo de la Plateforme des médiations muséales" />
+          <span class="d-none d-sm-inline">Plateforme des médiations muséales</span>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse" aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,7 +47,7 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
     </main>
 
     <footer>
-      <div class="footer bg-dark py-3">
+      <div class="footer bg-black py-3">
         <div class="container">
           <jdoc:include type="modules" name="footer" />
         </div>

@@ -1,7 +1,7 @@
 
 .inner {
-  padding-top: $spacer * 4;
-  padding-bottom: $spacer * 4;
+  padding-top: $spacer * 3;
+  padding-bottom: $spacer * 3;
 }
 
 .hero {
@@ -125,6 +125,29 @@
   }
 }
 
+.page-title {
+  padding-top: $spacer;
+  padding-bottom: $spacer;
+
+  .hero {
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+
+// Navbar
+
+.navbar-brand {
+  color: $white;
+  font-family: $font-family-hero;
+  font-size: $font-size-base;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $white;
+  }
+}
+
 // Card
 
 .card {
@@ -137,10 +160,6 @@
   justify-content: center;
   overflow: hidden;
   border-radius: 0;
-}
-
-.card-body {
-  padding-bottom: 0;
 }
 
 .card-title {
@@ -174,3 +193,5 @@
     text-transform: none;
   }
 }
+
+// footer

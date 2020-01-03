@@ -48,3 +48,11 @@ $lead-font-size: $font-size-base * 1.75;
 $lead-font-weight: 400;
 
 $font-weight-semibold: 500;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1100px,
+  xl: 1200px
+);

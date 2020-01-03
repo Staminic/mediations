@@ -253,6 +253,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/bars-solid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/bars-solid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/l-art-de-muser-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1887,6 +1897,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/partials/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/partials/_list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/partials/_menus.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/partials/_menus.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

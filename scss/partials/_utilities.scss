@@ -10,12 +10,6 @@
 
 // Bootstrap
 
-.custom-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
   font-family: "Font Awesome 5 Free";
@@ -48,4 +42,17 @@
 
 .icon-unpublish::before {
   content: "\f00d";
+}
+
+.form-control {
+  border-color: $black;
+  border-radius: 0;
+}
+
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-color: $black;
+  border-radius: 0;
 }

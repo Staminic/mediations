@@ -10,4 +10,16 @@ body {
   text-transform: uppercase;
   box-shadow: 2px 2px 3px rgba(0,0,0,0.25);
   font-weight: $font-weight-bold;
+
+  &[class*="outline"] {
+    box-shadow: none;
+  }
+
+  &[class*="outline-sand"] {
+    color: $black;
+  }
+}
+
+label {
+  font-weight: bold;
 }
