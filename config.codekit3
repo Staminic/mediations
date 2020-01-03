@@ -1862,7 +1862,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"/scss/partials/_common.scss": {
+	"/scss/partials/_article.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1870,7 +1870,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/partials/_common.css",
+		"oAP": "/scss/partials/_article.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1936,19 +1936,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/partials/_styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/partials/_utilities.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/partials/_utilities.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

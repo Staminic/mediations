@@ -24,10 +24,6 @@ if ( $show_list_desc && $description != '' ) {
 		$tag_desc	=	'div';
 	}
 	$description	=	'<'.$tag_desc.' class="cck_module_desc'.$class_sfx.'">' . $description . '</'.$tag_desc.'>';
-
-	if ( $tag_desc == 'div' ) {
-		$description	.=	'<div class="clr"></div>';
-	}
 }
 
 if ( $show_list_desc == 1 && $description != '' ) {
@@ -41,7 +37,7 @@ if ( $show_list_desc == 1 && $description != '' ) {
 <?php }
 
 if ( $search->content > 0 ) {
-	echo ( $raw_rendering ) ? '<div class="d-flex"><a href="institutions">Toutes</a>' . $data . '</div>' : '<div>'.$data.'</div>';
+	echo ( $raw_rendering ) ? '<div class="alpha-index"><a href="institutions">Toutes</a>' . $data . '</div>' : '<div>'.$data.'</div>';
 } else {
 	include __DIR__.'/azlist_items.php';
 }

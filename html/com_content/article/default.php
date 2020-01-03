@@ -29,7 +29,7 @@ JHtml::_('behavior.caption');
 	<?php if ($this->params->get('show_page_heading')) : ?>
 		<div class="page-header full-width">
 			<div class="container">
-				<h1> <?php echo $this->escape($this->params->get('page_heading')); ?></h1>
+				<h2 class="h1 hero"> <?php echo $this->escape($this->params->get('page_heading')); ?></h2>
 			</div>
 		</div>
 	<?php endif;

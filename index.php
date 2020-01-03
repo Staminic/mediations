@@ -10,11 +10,11 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
       <jdoc:include type="head" />
   </head>
 
-  <body class="<?php echo $active->alias . ($pageclass ? ' ' . $pageclass : ''); ?> item-<?php echo $active->id; ?> <?php echo ((($active->parent_id) && ($active->parent_id != '1')) ? ' parent-itemid-' . $active->parent_id : ''); ?> view-<?php echo $view; ?>">
+  <body class="site <?php echo $active->alias . ($pageclass ? ' ' . $pageclass : ''); ?> item-<?php echo $active->id; ?> <?php echo ((($active->parent_id) && ($active->parent_id != '1')) ? ' parent-itemid-' . $active->parent_id : ''); ?> view-<?php echo $view; ?>">
 
     <?php // print_r($params); ?>
 
-    <header>
+    <header class="header">
       <nav class="navbar navbar-expand-lg bg-black d-flex">
         <a class="navbar-brand mr-lg-auto flex-lg-grow-1 " href="/">
           <img src="<?php echo $tpath; ?>/img/pmm-logo.svg" class="mr-3" style="height: 38px;" alt="Logo de la Plateforme des médiations muséales" />
@@ -30,7 +30,7 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
       </nav>
     </header>
 
-    <main class="overflow-hidden">
+    <main class="main overflow-hidden">
       <?php if ($this->countModules('content-above')) : ?>
         <jdoc:include type="modules" name="content-above" style="html5"/>
       <?php endif; ?>
@@ -46,7 +46,7 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
       </div>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div class="footer bg-black py-3">
         <div class="container">
           <jdoc:include type="modules" name="footer" />
