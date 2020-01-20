@@ -43,8 +43,52 @@
 
 .private-menu {
   .nav-item {
-    &:last-child {
+    margin-right: $spacer;
+
+    .nav-link {
+      &::before {
+        content: "\f044";
+        display: inline-block;
+        margin-right: $spacer * .5;
+        font-family: 'Font Awesome 5 Free';
+      }
+    }
+
+    &.item-115 {
+      margin-right: 0;
       margin-left: auto !important;
+
+      .nav-link {
+        color: $black;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+
+        &::before {
+          content: "\f007";
+          display: inline-block;
+          margin-right: $spacer * .5;
+          font-family: 'Font Awesome 5 Free';
+          font-weight: 900;
+        }
+      }
+    }
+
+    &.item-131 {
+      margin-right: 0;
+
+      .nav-link {
+        color: $black;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+
+        &::before {
+          content: "\f011";
+          display: inline-block;
+          margin-right: $spacer * .5;
+          font-family: 'Font Awesome 5 Free';
+          font-weight: 900;
+        }
+      }
     }
   }
 }

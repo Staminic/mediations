@@ -140,6 +140,12 @@ address {
   }
 }
 
+.table {
+  th, td {
+    vertical-align: middle;
+  }
+}
+
 // Bootstrap
 
 [class^="icon-"]::before,
@@ -200,6 +206,7 @@ address {
   }
 
   &[class*="outline-sand"] {
+    border: none;
     color: $black;
   }
 
@@ -212,6 +219,12 @@ label {
   font-weight: bold;
 }
 
+
+// Forms
+
+input.radio {
+  margin: 0 $spacer * .25 0 $spacer;
+}
 
 // Navbar
 
@@ -272,6 +285,13 @@ label {
   }
 }
 
+form,
+.connexion {
+  .card {
+    background-color: rgba(255,255,255,.5);
+  }
+}
+
 .meta {
   margin: 0 0 .375rem 0;
   font-size: $font-size-sm;
@@ -311,5 +331,283 @@ label {
     display: inline-block;
     margin: 0.2rem 1rem 0.2rem 0;
     line-height: 1.2;
+  }
+}
+
+//Joomla
+
+.chzn-container {
+  font-size: 14px;
+
+  .chzn-results {
+    li.highlighted {
+      background-color: $primary;
+      background-image: none;
+    }
+  }
+}
+
+.chzn-container-multi {
+  .chzn-choices {
+    background-image: none;
+    border-color: $black;
+
+    li.search-field {
+      width: 100%;
+
+      input[type="text"][style] {
+        width: 100% !important;
+        margin: 0;
+        height: 29px;
+        color: #495057;
+      }
+    }
+  }
+}
+
+select#art_state {
+  option[value*="2"], // Archivé
+  option[value*="-2"] // Corbeille
+  {  display: none; }
+}
+
+// Seblod
+
+// Select 2
+
+.select2[style] {
+  width: auto !important;
+  display: block;
+}
+
+.select2-selection {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.select2-container {
+  .select2-selection--single {
+    height: auto;
+    border-color: $black;
+    border-radius: 0;
+  }
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: $input-color;
+  line-height: $line-height-base;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__placeholder {
+  color: $input-color;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
+  border-top-color: $input-color;
+}
+
+.select2-container--default.select2-container--open
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
+  border-bottom-color: $input-color;
+}
+
+.select2-container--default
+  .select2-selection--multiple
+  .select2-selection__choice {
+  white-space: normal;
+}
+
+.select2-container--default
+  .select2-results__option--highlighted[aria-selected] {
+    background-color: $primary;
+  }
+
+.mceEditor {
+  float: none;
+}
+
+.checkboxes {
+  .cck-fl {
+  	position: relative;
+  	display: block;
+  	padding-left: 1.25rem;
+
+    input {
+    	position: absolute;
+    	margin-top: .3rem;
+    	margin-left: -1.25rem;
+    }
+
+    label {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.inputbox.hidden {
+  display: none;
+}
+
+div.cck_button.cck_button_add,
+div.cck_button.cck_button_del {
+  height: auto;
+}
+
+div.cck_forms input.inputbox,
+div.cck_forms textarea.inputbox,
+div.cck_forms select.inputbox,
+div.cck_forms button.inputbox {
+  float: none !important;
+  padding: 0.375rem 0.75rem !important;
+}
+
+div.collection-group-wrap {
+  display: flex;
+  border: none;
+}
+
+div.collection-group-form {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.collection-group-button {
+  padding-top: 0;
+}
+
+div.cck_cgx_form,
+div.vertical_gx {
+  float: none;
+}
+
+.cck_form_group_x {
+  display: flex;
+  justify-content: space-between;
+
+  .cck_cgx_form {
+    flex: 1 0 auto;
+    margin-right: $spacer;
+  }
+
+  aside {
+    display: flex;
+    width: auto !important;
+    order: 2;
+    align-self: flex-end;
+    padding-bottom: $spacer;
+  }
+}
+
+.noUi-handle {
+  background-color: $primary;
+  border-color: $primary;
+  border-radius: 100%;
+  box-shadow: none;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 28px;
+}
+
+.noUi-handle::after,
+.noUi-handle::before {
+  content: none;
+}
+
+.noUi-tooltip {
+  line-height: 1;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  bottom: 0;
+  border: none;
+  background: none;
+  color: $white;
+}
+
+.cck_desc {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+#cck1r_form_md_mediation_situation {
+  margin-bottom: 0;
+}
+
+.table {
+  th, td {
+    vertical-align: middle;
+  }
+}
+
+.state {
+  opacity: .5;
+}
+
+// Public Dashboard
+
+#dashboard {
+  .table {
+    th, td {
+      text-align: center;
+    }
+
+    th:nth-child(1),
+    th:nth-child(2),
+    td:nth-child(1),
+    td:nth-child(2) {
+      text-align: left;
+    }
+
+    a {
+      color: $black;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .title {
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .created,
+  .state {
+    opacity: .4;
   }
 }
