@@ -120,7 +120,8 @@ address {
   }
 }
 
-.page-title {
+.page-title,
+.page-header {
   padding-top: $spacer;
   padding-bottom: $spacer;
 
@@ -371,6 +372,12 @@ select#art_state {
   {  display: none; }
 }
 
+.item-page {
+  .icons {
+    display: none;
+  }
+}
+
 // Seblod
 
 // Select 2
@@ -610,4 +617,10 @@ div.vertical_gx {
   .state {
     opacity: .4;
   }
+}
+
+// Slicked
+
+.slick-track {
+  display: flex;
 }

@@ -11,4 +11,8 @@
 
 #dashboard {
   padding-top: $spacer * 3;
+
+  .inner {
+    padding-top: 0;
+  }
 }
