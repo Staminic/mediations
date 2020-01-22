@@ -242,6 +242,14 @@
 		"oAP": "/html/mod_menu/default.php",
 		"oF": 0
 		},
+	"/html/pagination.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/pagination.php",
+		"oF": 0
+		},
 	"/img/art-gallery.jpg": {
 		"ft": 16384,
 		"iS": 129074,

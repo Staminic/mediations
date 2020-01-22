@@ -7,5 +7,10 @@
 @import "partials/editform";
 
 .alert-message {
-  background-color: $teal;
+  margin-top: 1rem;
+  background-color: #EBFF00;
+
+  .close {
+    cursor: pointer;
+  }
 }

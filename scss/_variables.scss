@@ -21,6 +21,9 @@ $aqua-blue: #3eada5;
 
 $primary: $aqua-blue;
 
+$pagination-color: $primary;
+$pagination-active-bg: $primary;
+
 $theme-colors: ();
 $theme-colors: map-merge(
   (
