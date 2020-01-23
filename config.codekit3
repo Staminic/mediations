@@ -43,106 +43,6 @@
 		"oAP": "/component.php",
 		"oF": 0
 		},
-	"/css/bootstrap/bootstrap-grid.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/bootstrap/bootstrap-grid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/bootstrap/bootstrap-reboot.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/bootstrap/bootstrap-reboot-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/bootstrap/bootstrap.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/bootstrap/bootstrap-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/fontawesome/brands.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/fontawesome/brands-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/fontawesome/fa-brands.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/fontawesome/fa-brands-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/fontawesome/fa-regular.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/fontawesome/fa-regular-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/fontawesome/fa-solid.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/fontawesome/fa-solid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/fontawesome/fontawesome.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/fontawesome/fontawesome-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/fontawesome/v4-shims.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/fontawesome/v4-shims-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/build/main.css",
-		"oF": 2,
-		"oS": 3
-		},
 	"/error.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -349,28 +249,6 @@
 		"oA": 1,
 		"oAP": "/js/script-min.js",
 		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/slick.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/slick-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/slick.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/slick.min-min.js",
-		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
