@@ -95,10 +95,18 @@ address {
     }
 
     .btn {
-      position: absolute;
-      right: 15px;
-      top: 50%;
-      transform: translateY(-50%);
+      margin-top: $spacer * .2;
+      margin-bottom: $spacer * .2;
+    }
+
+    @include media-breakpoint-up(lg) {
+      .btn {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+      }
     }
   }
 

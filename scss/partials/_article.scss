@@ -157,3 +157,14 @@ body:not(.ressources) {
     }
   }
 }
+
+.mediations {
+  &.view-article {
+    .content-wysiswyg {
+      .card-img-top {
+        width: auto;
+        display: inline-flex;
+      }
+    }
+  }
+}

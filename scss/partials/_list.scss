@@ -73,3 +73,14 @@
     }
   }
 }
+
+#md_mediation_order {
+  option {
+    display: none;
+
+    &:nth-last-child(1),
+    &:nth-last-child(2) {
+      display: block;
+    }
+  }
+}
