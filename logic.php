@@ -11,6 +11,8 @@ $pageclass = $params->get('pageclass_sfx');
 $tpath = $this->baseurl.'/templates/'.$this->template;
 $view = $jinput->get('view');
 
+$user = JFactory::getUser();
+
 // generator tag
 $this->setGenerator(null);
 

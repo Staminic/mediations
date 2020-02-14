@@ -10,9 +10,9 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
       <jdoc:include type="head" />
   </head>
 
-  <body class="site <?php echo $active->alias . ($pageclass ? ' ' . $pageclass : ''); ?> item-<?php echo $active->id; ?> <?php echo ((($active->parent_id) && ($active->parent_id != '1')) ? ' parent-itemid-' . $active->parent_id : ''); ?> view-<?php echo $view; ?>">
+  <body class="site <?php echo $active->alias . ($pageclass ? ' ' . $pageclass : ''); ?> item-<?php echo $active->id; ?><?php echo ((($active->parent_id) && ($active->parent_id != '1')) ? ' parent-itemid-' . $active->parent_id : ''); ?> view-<?php echo $view; ?><?php echo (($user->groups[11] == '11') ? ' loggedin' : '') ; ?>">
 
-    <?php // print_r($params); ?>
+    <?php // print_r($user->groups[11]); ?>
 
     <header class="header">
       <nav class="navbar navbar-expand-lg bg-black d-flex">

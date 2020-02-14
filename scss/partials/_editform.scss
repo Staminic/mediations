@@ -90,3 +90,9 @@
     margin: 0;
   }
 }
+
+body:not(.loggedin) {
+  .user-activation {
+    display: none !important;
+  }
+}
