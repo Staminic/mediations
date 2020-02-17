@@ -84,3 +84,19 @@
     }
   }
 }
+
+div.pagination {
+  display: flex;
+  margin-bottom: $spacer;
+  align-items: center;
+
+  .counter {
+    @extend .small;
+    margin: 0 $spacer;
+    font-weight: $font-weight-bold;
+  }
+
+  ul.pagination {
+    margin: 0;
+  }
+}

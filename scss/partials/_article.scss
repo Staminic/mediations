@@ -16,6 +16,30 @@
       max-width: 100%;
       height: auto;
     }
+
+    .card-body {
+      background-color: rgba(255,255,255,.3);
+
+      ul.cck-fl {
+        float: none;
+        list-style-type: none;
+        margin: 0;
+        padding-left: 0;
+
+        li {
+          margin: $spacer * .5 0;
+        }
+
+        a {
+          &::after {
+            content: '\f35d';
+            margin-left: $spacer * .25;
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -147,7 +171,7 @@ body:not(.ressources) {
 
       .picto {
         position: relative;
-        top: -$spacer;
+        top: $spacer;
         margin: 0;
       }
 

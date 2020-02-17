@@ -349,7 +349,7 @@ form,
 	bottom: 5px;
 	right: 5px;
 	color: #fff;
-  font-size: $font-size-sm;
+  font-size: 70%;
   font-weight: bold;
   text-align: right;
 	text-shadow: 1px 1px 0 #000;
@@ -529,8 +529,33 @@ div.collection-group-wrap {
 }
 
 div.collection-group-form {
+  width: 100%;
   margin-top: 0;
   margin-bottom: 0;
+
+  div {
+    float: none !important;
+  }
+
+  div.cck_label {
+    font-size: $font-size-sm;
+  }
+}
+
+div.adminformlist {
+  > div + div {
+    margin-top: $spacer;
+  }
+}
+
+div.cck_form_link_link {
+  @extend .form-group;
+}
+
+div.cck_form_link_text {
+  input {
+    @extend .form-control;
+  }
 }
 
 div.collection-group-button {
@@ -552,6 +577,16 @@ div.vertical_gx {
   }
 
   aside {
+    display: flex;
+    width: auto !important;
+    order: 2;
+    align-self: flex-end;
+    padding-bottom: $spacer;
+  }
+}
+
+div.cck_field_x {
+  div.collection-group-button {
     display: flex;
     width: auto !important;
     order: 2;

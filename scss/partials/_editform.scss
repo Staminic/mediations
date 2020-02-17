@@ -96,3 +96,8 @@ body:not(.loggedin) {
     display: none !important;
   }
 }
+
+.help {
+  font-weight: $font-weight-bold;
+  color: rgba(0,0,0,.7);
+}
