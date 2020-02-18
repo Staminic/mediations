@@ -484,6 +484,16 @@ div.pagination {
     background-color: $primary;
   }
 
+.select2-container--default
+  .select2-selection--single
+    .select2-selection__clear {
+      padding-right: 6px;
+      padding-left: 6px;
+      border-radius: 100%;
+      background-color: $primary;
+      color: $white;
+    }
+
 .mceEditor {
   float: none;
 }
