@@ -51,7 +51,7 @@
     padding-left: 0 !important;
   }
 
-  span[title*="delete"] {
+  span[title*="supprimer"] {
     display: inline-flex;
 
     &::before {
@@ -98,6 +98,7 @@ body:not(.loggedin) {
 }
 
 .help {
+  margin-top: -$spacer;
   font-weight: $font-weight-bold;
-  color: rgba(0,0,0,.7);
+  color: rgba(0,0,0,.5);
 }
