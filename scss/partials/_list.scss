@@ -52,7 +52,7 @@
     justify-content: flex-end;
     align-items: center;
 
-    button + a {
+    .button + a {
       order: -1;
     }
   }
@@ -72,6 +72,10 @@
       height: 600px !important;
     }
   }
+}
+
+div[id*="_form_md_mediation_order"] {
+  margin-bottom: 0;
 }
 
 #md_mediation_order {
