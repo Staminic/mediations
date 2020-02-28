@@ -440,14 +440,16 @@ div.pagination {
 .select2-container--default
   .select2-selection--single
   .select2-selection__rendered {
-  color: $input-color;
+  color: $aqua-blue;
   line-height: $line-height-base;
+  font-weight: $font-weight-bold;
 }
 
 .select2-container--default
   .select2-selection--single
   .select2-selection__placeholder {
   color: $input-color;
+  font-weight: $font-weight-normal;
 }
 
 .select2-container--default
@@ -719,4 +721,30 @@ div.cck_field_x {
 
 .slick-next {
   right: -45px;
+}
+
+.search-wrapper {
+  .btn[aria-expanded*="true"] {
+    @extend .btn-outline-black:hover;
+
+    span {
+      &::before {
+        content: "\f056";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: .25rem;
+      }
+    }
+  }
+
+  .btn[aria-expanded*="false"] {
+    span {
+      &::before {
+        content: "\f055";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: .25rem;
+      }
+    }
+  }
 }
