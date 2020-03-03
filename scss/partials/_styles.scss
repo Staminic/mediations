@@ -704,6 +704,24 @@ div.cck_field_x {
   display: flex;
 }
 
+.slick-initialized {
+  .slick-slide {
+    display: flex !important;
+    height: auto !important;
+
+    &.card {
+      justify-content: space-between;
+
+      > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 auto;
+      }
+    }
+  }
+}
+
 .slick-prev,
 .slick-next {
   width: 40px;
