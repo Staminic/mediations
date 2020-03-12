@@ -97,6 +97,26 @@ body:not(.loggedin) {
   }
 }
 
+.contributeur {
+  .cck_forms.cck_site {
+    margin-top: 0 !important;
+  }
+
+  #cck1r_user_block {
+    #cck1r_label_user_block {
+      text-align: left;
+    }
+
+    #cck1r_form_user_block {
+      margin-left: -1rem;
+    }
+  }
+
+  .cck_cgx_form {
+    margin-bottom: 0;
+  }
+}
+
 .help {
   margin-top: -$spacer;
   font-weight: $font-weight-bold;
