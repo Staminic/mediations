@@ -122,3 +122,16 @@ body:not(.loggedin) {
   font-weight: $font-weight-bold;
   color: rgba(0,0,0,.5);
 }
+
+.cck_form_jform_accesslevel option[value*="3"],
+.cck_form_jform_accesslevel option[value*="5"],
+.cck_form_jform_accesslevel option[value*="6"],
+.cck_form_jform_accesslevel option[value*="7"] {
+  display: none;
+}
+
+h1 {
+  .badge-warning {
+    background-color: #ebff00;
+  }
+}
