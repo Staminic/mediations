@@ -786,7 +786,9 @@ div.cck_field_x {
 
 .search-wrapper {
   .btn[aria-expanded*="true"] {
-    @extend .btn-outline-black:hover;
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
 
     span {
       &::before {
